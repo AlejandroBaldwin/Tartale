@@ -1,0 +1,38 @@
+.navigationContainer {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    border: 1px black solid;
+    width: 240px;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .navigationContainer {
+        position: relative;
+        left: 0;
+        height: 100vh;
+    }
+}
+
+.navigationContainerHeader {
+    background-color: #dee3fc;
+    border: 1px red solid;
+    width: 240px;
+    height: 150px;
+}
+
+.navigationContainerLinks {
+    border: 1px blue solid;
+    width: 240px;
+    height: 200px;
+}
+
+.logo {
+    width: 150px;
+    margin: 10px 0 0 10px
+}
+
+.title {
+    font-size: 18px;
+}
