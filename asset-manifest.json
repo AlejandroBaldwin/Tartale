@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Tartale/static/css/main.98978e65.chunk.css",
+    "main.js": "/Tartale/static/js/main.f375b94d.chunk.js",
+    "main.js.map": "/Tartale/static/js/main.f375b94d.chunk.js.map",
+    "runtime-main.js": "/Tartale/static/js/runtime-main.b10f9a7c.js",
+    "runtime-main.js.map": "/Tartale/static/js/runtime-main.b10f9a7c.js.map",
+    "static/js/2.e7e7b328.chunk.js": "/Tartale/static/js/2.e7e7b328.chunk.js",
+    "static/js/2.e7e7b328.chunk.js.map": "/Tartale/static/js/2.e7e7b328.chunk.js.map",
+    "index.html": "/Tartale/index.html",
+    "precache-manifest.c71bc7f60580b852f6faee3de014d669.js": "/Tartale/precache-manifest.c71bc7f60580b852f6faee3de014d669.js",
+    "service-worker.js": "/Tartale/service-worker.js",
+    "static/css/main.98978e65.chunk.css.map": "/Tartale/static/css/main.98978e65.chunk.css.map",
+    "static/js/2.e7e7b328.chunk.js.LICENSE.txt": "/Tartale/static/js/2.e7e7b328.chunk.js.LICENSE.txt",
+    "static/media/alfajor.jpeg": "/Tartale/static/media/alfajor.c5adbdb8.jpeg",
+    "static/media/brownies.jpeg": "/Tartale/static/media/brownies.1e81b16d.jpeg",
+    "static/media/crema_volteada.jpeg": "/Tartale/static/media/crema_volteada.d7d15449.jpeg",
+    "static/media/logo.jpeg": "/Tartale/static/media/logo.626357ab.jpeg",
+    "static/media/mango_pie.jpeg": "/Tartale/static/media/mango_pie.ed9031bd.jpeg",
+    "static/media/mini_cake.jpeg": "/Tartale/static/media/mini_cake.a4949e98.jpeg",
+    "static/media/mini_pie.jpeg": "/Tartale/static/media/mini_pie.a5ceab0d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b10f9a7c.js",
+    "static/js/2.e7e7b328.chunk.js",
+    "static/css/main.98978e65.chunk.css",
+    "static/js/main.f375b94d.chunk.js"
+  ]
+}
