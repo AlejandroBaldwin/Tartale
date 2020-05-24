@@ -2,9 +2,9 @@
     position: fixed;
     left: -300px;
     top: 0;
-    border: 1px black solid;
     width: 240px;
     height: 100vh;
+    background-color: #dee3fc;
 }
 
 @media (min-width: 768px) {
@@ -16,23 +16,23 @@
 }
 
 .navigationContainerHeader {
-    background-color: #dee3fc;
-    border: 1px red solid;
+    text-align: center;
     width: 240px;
-    height: 150px;
+    height: fit-content;
 }
 
 .navigationContainerLinks {
-    border: 1px blue solid;
     width: 240px;
     height: 200px;
 }
 
 .logo {
     width: 150px;
-    margin: 10px 0 0 10px
+    margin: 10px 0 0 10px;
 }
 
 .title {
-    font-size: 18px;
+    margin: 0;
+    font-family: 'Allura', cursive;
+    font-size: 3rem;
 }

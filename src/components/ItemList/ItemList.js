@@ -7,8 +7,8 @@ import './ItemList.css';
 
 const ItemList = ({ imgs }) => {
     const breakpointColumnsObj = {
-        default: 4,
-        1100: 3,
+        default: 3,
+        1100: 2,
         700: 2,
         500: 1
     };
