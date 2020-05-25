@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tartale/static/css/main.7c2e7337.chunk.css",
+    "main.css": "/Tartale/static/css/main.2af802e3.chunk.css",
     "main.js": "/Tartale/static/js/main.1f5b66e6.chunk.js",
     "main.js.map": "/Tartale/static/js/main.1f5b66e6.chunk.js.map",
     "runtime-main.js": "/Tartale/static/js/runtime-main.b10f9a7c.js",
@@ -8,9 +8,9 @@
     "static/js/2.e7e7b328.chunk.js": "/Tartale/static/js/2.e7e7b328.chunk.js",
     "static/js/2.e7e7b328.chunk.js.map": "/Tartale/static/js/2.e7e7b328.chunk.js.map",
     "index.html": "/Tartale/index.html",
-    "precache-manifest.6723bcf746579c8d342435e488520a2b.js": "/Tartale/precache-manifest.6723bcf746579c8d342435e488520a2b.js",
+    "precache-manifest.c7eda81c1fcb2bc5bda52d76bfa9e8c8.js": "/Tartale/precache-manifest.c7eda81c1fcb2bc5bda52d76bfa9e8c8.js",
     "service-worker.js": "/Tartale/service-worker.js",
-    "static/css/main.7c2e7337.chunk.css.map": "/Tartale/static/css/main.7c2e7337.chunk.css.map",
+    "static/css/main.2af802e3.chunk.css.map": "/Tartale/static/css/main.2af802e3.chunk.css.map",
     "static/js/2.e7e7b328.chunk.js.LICENSE.txt": "/Tartale/static/js/2.e7e7b328.chunk.js.LICENSE.txt",
     "static/media/alfajor.jpeg": "/Tartale/static/media/alfajor.c5adbdb8.jpeg",
     "static/media/brownies.jpeg": "/Tartale/static/media/brownies.1e81b16d.jpeg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.b10f9a7c.js",
     "static/js/2.e7e7b328.chunk.js",
-    "static/css/main.7c2e7337.chunk.css",
+    "static/css/main.2af802e3.chunk.css",
     "static/js/main.1f5b66e6.chunk.js"
   ]
 }
