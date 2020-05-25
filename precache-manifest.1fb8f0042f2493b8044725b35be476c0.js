@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a38050ee4f95a5ead6bbe0401724546",
+    "revision": "4948bd585937a49ae57495c7f84558cf",
     "url": "/Tartale/index.html"
   },
   {
-    "revision": "edf5f6a7a78a9f0868b8",
-    "url": "/Tartale/static/css/main.dd90834d.chunk.css"
+    "revision": "781ce458b4136d2482a3",
+    "url": "/Tartale/static/css/main.11f70e27.chunk.css"
   },
   {
     "revision": "6d0f362b0c655c6d7ff3",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tartale/static/js/2.e7e7b328.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "edf5f6a7a78a9f0868b8",
+    "revision": "781ce458b4136d2482a3",
     "url": "/Tartale/static/js/main.1f5b66e6.chunk.js"
   },
   {
