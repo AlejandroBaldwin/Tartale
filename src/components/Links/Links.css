@@ -1,0 +1,8 @@
+.link-list-items:hover{
+    color: rgb(255, 123, 0);
+}
+
+.link-list-items a {
+    font-size: 1.5rem;
+    font-family: 'Cabin', sans-serif;
+}
