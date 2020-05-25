@@ -26,13 +26,27 @@
     height: 200px;
 }
 
-.logo {
-    width: 150px;
-    margin: 10px 0 0 10px;
+.link-list {
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    width: 90%;
+    height: 40vh;
+    margin-left: 10px;
 }
 
-.title {
-    margin: 0;
-    font-family: 'Allura', cursive;
-    font-size: 3rem;
+.link-list-items {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-list-items:hover{
+    color: rgb(255, 123, 0);
+}
+
+.link-list-items a {
+    font-size: 1.5rem;
+    font-family: 'Cabin', sans-serif;
 }

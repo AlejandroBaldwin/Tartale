@@ -1,4 +1,3 @@
-import React from 'react';
 import alfajor from './alfajor.jpeg';
 import brownies from './brownies.jpeg';
 import crema_volteada from './crema_volteada.jpeg';

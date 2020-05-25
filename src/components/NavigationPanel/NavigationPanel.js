@@ -1,6 +1,7 @@
 import React from 'react';
+import Logo from '../Logo/Logo';
+import Title from '../Title/Title';
 import './NavigationPanel.css'
-import logo from '../../img/logo.jpeg'
 
 const NavigationPanel = () => {
     return(
@@ -9,13 +10,18 @@ const NavigationPanel = () => {
 
             {/* Header Section */}
             <div className='navigationContainerHeader'>
-                <img className='logo' alt='' src={logo}/>
-                <h1 className='title'>Tartale</h1>
+                <Logo />
+                <Title />
             </div>
 
             {/* Navigation Links */}
             <div className='navigationContainerLinks'>
-
+                <ul className='link-list'>
+                    <li className="link-list-items"><a>Home</a></li>
+                    <li className="link-list-items"><a>Conócenos</a></li>
+                    <li className="link-list-items"><a>Servicios</a></li>
+                    <li className="link-list-items"><a>Contacto</a></li>
+                </ul>
             </div>
 
 
