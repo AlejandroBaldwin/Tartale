@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tartale/precache-manifest.1fb8f0042f2493b8044725b35be476c0.js"
+  "/Tartale/precache-manifest.1b36e1dc236981dc39a7773d1a387de3.js"
 );
 
 self.addEventListener('message', (event) => {
