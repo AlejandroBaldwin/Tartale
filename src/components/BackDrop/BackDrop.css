@@ -1,0 +1,16 @@
+.backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.7);
+    transition: all ease-out 0.5s;
+    cursor: pointer;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

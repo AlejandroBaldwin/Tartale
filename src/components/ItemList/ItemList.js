@@ -15,7 +15,7 @@ const ItemList = ({ imgs }) => {
     
     const images = imgs.map((img, i) => {
         return (
-              <Item alt={img.alt} source={img.src} key={img.id}/>
+              <Item alt={img.alt} source={img.src} key={img.id} />
         );
     })
 

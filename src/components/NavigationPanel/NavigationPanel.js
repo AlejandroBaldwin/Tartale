@@ -2,19 +2,20 @@ import React from 'react';
 import Logo from '../Logo/Logo';
 import Title from '../Title/Title';
 import Links from '../Links/Links';
+import BackDrop from '../BackDrop/BackDrop';
 import './NavigationPanel.css'
 
-const NavigationPanel = () => {
+const NavigationPanel = ({ clickButton, sideMenu, backdrop, clickBackdrop}) => {
     return(
         /* Navigation Panel Container */
         <div className='navigationContainer'>
 
             <div className='toolbar'>
-                <div className='toolbar-hamburger'>
+                <button className='toolbar-hamburger' onClick={clickButton}>
                     <div className='toolbar-harmburger-bar'></div>
                     <div className='toolbar-harmburger-bar'></div>
                     <div className='toolbar-harmburger-bar'></div>
-                </div>
+                </button>
 
                 <div className="spacer"></div>
 
@@ -23,7 +24,7 @@ const NavigationPanel = () => {
 
             {/* Side menu */}
 
-            <div className='side-menu'>
+            <div className={`side-menu ${sideMenu}`}>
                 {/* Header Section */}
                 <div className='navigationContainerHeader'>
                     <Logo />
@@ -36,7 +37,9 @@ const NavigationPanel = () => {
                 </div>
             </div>
 
-            
+            {/* Backdrop */}
+
+            <BackDrop click={clickBackdrop} backdrop={backdrop}/>
 
 
         </div>

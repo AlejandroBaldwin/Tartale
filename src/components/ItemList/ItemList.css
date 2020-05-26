@@ -9,7 +9,14 @@
     display: flex;
     margin: 70px auto 0; /* gutter size offset */
     width: 100%;
+    transition: all 0.3s ease-out;
     box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .my-masonry-grid {
+        margin-top: 10px;
+    }
 }
 .my-masonry-grid_column {
     padding-left: 0px; /* gutter size */
