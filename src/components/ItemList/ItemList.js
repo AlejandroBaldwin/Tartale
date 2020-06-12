@@ -5,7 +5,7 @@ import './ItemList.css';
 
 
 
-const ItemList = ({ imgs }) => {
+const ItemList = ({ imgs, onDessertClick, modalState }) => {
     const breakpointColumnsObj = {
         default: 3,
         1100: 2,
@@ -15,7 +15,7 @@ const ItemList = ({ imgs }) => {
     
     const images = imgs.map((img, i) => {
         return (
-              <Item alt={img.alt} source={img.src} key={img.id} />
+              <Item alt={img.alt} source={img.src} id={img.id} onDessertClick={onDessertClick} description={img.description}/>
         );
     })
 

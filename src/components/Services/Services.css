@@ -1,0 +1,53 @@
+.services {
+    margin: 70px 10px 0;
+}
+
+.services__header h1{
+    font-family: 'cabin', sans-serif;
+    font-size: 2.75rem;
+}
+
+.services__services {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .services {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .services__services {
+        flex-direction: row;
+    }
+}
+
+.services__services__container {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.services__services__container__img {
+    width: 100%;
+    border: 1px black solid;
+    height: 250px;
+}
+
+.services__services__container__header {
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: 'cabin', sans-serif;
+}
+
+.services__services__container__description {
+    text-align: center;
+}
+
+.services__services__container__CTA {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0;
+}

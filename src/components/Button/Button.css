@@ -1,0 +1,13 @@
+.button {
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 9px 20px;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}

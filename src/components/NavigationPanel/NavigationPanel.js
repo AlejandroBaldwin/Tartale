@@ -5,7 +5,7 @@ import Links from '../Links/Links';
 import BackDrop from '../BackDrop/BackDrop';
 import './NavigationPanel.css'
 
-const NavigationPanel = ({ clickButton, sideMenu, backdrop, clickBackdrop}) => {
+const NavigationPanel = ({ clickButton, sideMenu, backdrop, clickBackdrop, changeRoute}) => {
     return(
         /* Navigation Panel Container */
         <div className='navigationContainer'>
@@ -33,7 +33,7 @@ const NavigationPanel = ({ clickButton, sideMenu, backdrop, clickBackdrop}) => {
 
                 {/* Navigation Links */}
                 <div className='navigationContainerLinks'>
-                    <Links />
+                    <Links changeRoute={changeRoute}/>
                 </div>
             </div>
 

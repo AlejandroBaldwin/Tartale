@@ -1,0 +1,49 @@
+.dessert-description {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.7);
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .dessert-description {
+        left: auto;
+        right: 0;
+        width: calc(100% - 240px);
+    }
+}
+
+.dessert-description__container {
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    height: 85%;
+    background-color: #dee3fc;
+    text-align: center;
+    
+    display: flex;
+}
+
+.dessert-description__container__contents {
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.dessert-description__container__img {
+    width: 100%;
+    max-width:300px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+}

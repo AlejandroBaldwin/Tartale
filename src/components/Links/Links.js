@@ -1,13 +1,13 @@
 import React from 'react';
 import './Links.css'
 
-const Links = () => {
+const Links = ({ changeRoute }) => {
     return(
         <ul className='link-list'>
-            <li className="link-list-items"><a href="/">Home</a></li>
-            <li className="link-list-items"><a href="/">Conócenos</a></li>
-            <li className="link-list-items"><a href="/">Servicios</a></li>
-            <li className="link-list-items"><a href="/">Contacto</a></li>
+            <li id="home" className="link-list-items" onClick={changeRoute}>Home</li>
+            <li id="about"  className="link-list-items" onClick={changeRoute}>Conócenos</li>
+            <li id="services" className="link-list-items" onClick={changeRoute}>Servicios</li>
+            <li id="contact" className="link-list-items" onClick={changeRoute}>Contacto</li>
         </ul>
     )
 }
