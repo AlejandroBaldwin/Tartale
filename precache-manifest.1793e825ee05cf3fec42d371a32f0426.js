@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8699485f329e8a71106d971401b6f6ca",
+    "revision": "2d873abd902faa811c6da6ad57847089",
     "url": "/Tartale/index.html"
   },
   {
-    "revision": "465ab89d2425280033be",
-    "url": "/Tartale/static/css/main.0078b0c6.chunk.css"
+    "revision": "fce6134e22e611470ee0",
+    "url": "/Tartale/static/css/main.78819edb.chunk.css"
   },
   {
-    "revision": "d0954087adb30073fff7",
-    "url": "/Tartale/static/js/2.eaf0233e.chunk.js"
+    "revision": "33bd01ba89929166f683",
+    "url": "/Tartale/static/js/2.d63c9e43.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Tartale/static/js/2.eaf0233e.chunk.js.LICENSE.txt"
+    "url": "/Tartale/static/js/2.d63c9e43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "465ab89d2425280033be",
-    "url": "/Tartale/static/js/main.94fd5465.chunk.js"
+    "revision": "fce6134e22e611470ee0",
+    "url": "/Tartale/static/js/main.b10dce6e.chunk.js"
   },
   {
     "revision": "5969119218501b69a3a0",
     "url": "/Tartale/static/js/runtime-main.b10f9a7c.js"
+  },
+  {
+    "revision": "e173dfdb16ae946b96a89fe6e5ecdd93",
+    "url": "/Tartale/static/media/about_dev.e173dfdb.jpeg"
   },
   {
     "revision": "c5adbdb895473729c91c1f9651bf79d5",
