@@ -1,4 +1,6 @@
 .side-menu {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     width: 240px;
@@ -15,6 +17,7 @@
 .open{
     left: 0;
 }
+
 
 @media (min-width: 768px) {
     .side-menu {
@@ -87,4 +90,8 @@
 .toolbar-title {
     margin-right: 15px;
     margin-top: 5px;
+}
+
+.nav-social-media__icon {
+    margin: auto 0 10px 10px;
 }

@@ -4,6 +4,9 @@ import Title from '../Title/Title';
 import Links from '../Links/Links';
 import BackDrop from '../BackDrop/BackDrop';
 import './NavigationPanel.css'
+import icons from '../../img/social-media';
+const facebook = icons[0];
+const instagram = icons[1];
 
 const NavigationPanel = ({ clickButton, sideMenu, backdrop, clickBackdrop, changeRoute}) => {
     return(
@@ -35,6 +38,11 @@ const NavigationPanel = ({ clickButton, sideMenu, backdrop, clickBackdrop, chang
                 <div className='navigationContainerLinks'>
                     <Links changeRoute={changeRoute}/>
                 </div>
+
+                <section className='nav-social-media__icon'>
+                    <a href='#'><img className='contact__social-media__icon' src={facebook.src} alt={facebook.alt} id={facebook.id}/></a>
+                    <a href='https://www.instagram.com/tartale.decasa/' target='blank'><img className='contact__social-media__icon' src={instagram.src} alt={instagram.alt} id={instagram.id}/></a>
+                </section>
             </div>
 
             {/* Backdrop */}

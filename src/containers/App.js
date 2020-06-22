@@ -6,7 +6,7 @@ import About from '../components/About/About';
 import Services from '../components/Services/Services';
 import Contact from '../components/Contact/Contact';
 import DessertDescription from '../components/DessertDescription/DessertDescription'
-import imgs from '../img/img';
+import imgs from '../img/desserts';
 import './App.css';
 
 

@@ -1,0 +1,59 @@
+.contact {
+    margin-top: 60px;
+    margin-left: 5px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 60px);
+    box-sizing: border-box;
+}
+
+.contact__header {
+    font-family: 'cabin', sans-serif;
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__form__textarea {
+    height: 150px;
+    margin-top: 15px;
+}
+
+.contact__social-media__header {
+    display: inline-block;
+    width: fit-content;
+    font-family: 'cabin', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    
+}
+
+.contact__social-media__container {
+    box-sizing: border-box;
+    margin-top: auto;
+    vertical-align: middle;
+}
+
+.contact__social-media__icons {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.contact__social-media__icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    
+}
+
+.whatsapp {
+    display: inline-block;
+    vertical-align: middle;
+}

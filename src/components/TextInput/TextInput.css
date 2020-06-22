@@ -1,0 +1,16 @@
+.text-input-text, .text-input-email, .text-input-tel {
+    margin-top: 10px;
+    height: 20px;
+    width: 50%;
+    background: white;
+    border: grey 1px solid;
+}
+
+.text-input-email {
+    width: 80%;
+}
+
+.text-input-submit {
+    width: 30%;
+    margin: 10px auto 0;
+}
